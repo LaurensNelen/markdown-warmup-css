@@ -1,0 +1,14 @@
+
+table, th, td {
+    border: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+  }
+hr{
+    color:  lightblue;
+}
+h2,li,p
+{
+    color: grey;
+}
