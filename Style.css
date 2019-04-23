@@ -1,14 +1,53 @@
-
+.table
+{
+  margin-top: -19px;
+}
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
+    
   }
   table {
     border-collapse: collapse;
   }
 hr{
-    color:  lightblue;
+    color:  #DFE2E5;
+    
+    
+}
+
+h1::after{
+    content:' ';
+    display:block;
+    border:2px solid black;
+
 }
 h2,li,p
 {
     color: grey;
+}
+.vLine
+{
+  border-left: 4px solid #DFE2E5;
+  height: 100%;
+  
+    
+  
+
+}
+.alert{
+  color: purple;
+}
+.text
+{
+  color: #032F62;
+}
+.var
+{
+  color:#D73A49;
+}
+h2,table,ul,hr,img,form{
+  margin-left: 17px;
+}
+code{
+  color: grey;
 }
